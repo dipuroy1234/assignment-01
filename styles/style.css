@@ -1,0 +1,121 @@
+/* Some styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.hero{
+    background-image: url(../Assets/Hero-bg.png);
+    background-color: #f4f4f8;
+    padding: 70px 20px;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding:0 30px 70px; 
+}
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    color: #4E47FF;
+    padding: 10px 20px;
+}
+.hero-content{
+    margin-top: 50px;
+}
+.hero-content h1{
+    font-size: 42px;
+    color: #222;
+    margin-bottom: 15px;
+}
+.signup, .primary-btn{
+    background-color: #4338ca;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.see-it-action{
+    background-color: #f5f7ff;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+.action-content{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.action-text{
+    flex: 1;
+    min-width: 300px;
+}
+.action-text h2{
+    font-size: 32px;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+.action-text p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.action-image{
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+    
+}
+.action-image img{
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+.stats-banner{
+    background-color: #eaefff;
+    border-radius: 24px;
+    padding: 80px 60px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+.stats-banner h2{
+    margin-bottom: 30px;
+    color: #252432;
+    font-size: 24px;
+}
+.stats-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.stat h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #3b46f0;
+    margin: 0;
+}
+.stat p{
+    margin-top: 8px;
+    color: #000000;
+    font-size: 15px;
+}
